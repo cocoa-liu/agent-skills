@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR 代码审查"
+  short_description: "检查 PR 代码位置与项目规范，输出有证据的审查结果和评论草稿"
+  default_prompt: "使用 $pr-code-review 审查这个 PR：<PR 链接>，重点检查代码位置与项目规范，暂不审查测试质量，输出审查报告和由我手动提交的评论草稿。"

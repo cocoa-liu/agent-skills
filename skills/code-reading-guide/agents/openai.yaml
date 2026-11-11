@@ -1,0 +1,4 @@
+interface:
+  display_name: "交互式源码阅读导读"
+  short_description: "生成带源码讲解、理解检查、PR 逐行标色与批注保存的离线 HTML 导读"
+  default_prompt: "使用 $code-reading-guide 阅读这个仓库或 PR，先建立整体轮廓，再按执行流程生成带逐块源码讲解、数据演示和理解检查的离线 HTML 导读；PR 导读还需展示全部改动，支持逐行标色、文字批注和持久保存。"
