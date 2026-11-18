@@ -1,0 +1,4 @@
+interface:
+  display_name: "CUDA → Ascend NPU 模型迁移"
+  short_description: "复用现有框架完成模型迁移，验证功能、精度与基础性能并交付报告"
+  default_prompt: "使用 $port-cuda-to-ascend-npu 将当前项目中的目标模型适配到 Ascend NPU，复用已有能力，完成验证并输出迁移报告。"
